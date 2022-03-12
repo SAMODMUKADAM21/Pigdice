@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pig Dice</title>
 </head>
 <body>
+    <div class="container">
+        <h1 class="text-center">Pig Dice</h1>
+
+        <div class="game-box">
+            <!-- Player 1 -->
+            <div class="player-1 player active">
+                <div class="player-score">
+                    <h2 class="mb-4 text-primary winner player-1winner">Winner!!</h2>
+                    <h1>player-1</h1>
+                    <p id="player-1score" class="text-primary"></p>
+                </div>
+                <p class="player-warning player-1warnig">sorry u picked 1</p>
+                <div class="current-score bg-primary">
+                    <p>CURRENT</p>
+                    <span id="player-1current" class="current">0</span>
+                </div>
+            </div>
+
+            <!-- Player 2 -->
+            <div class="player-2 player active">
+                <div class="player-score">
+                    <h2 class="mb-4 text-primary winner player-2winner">Winner!!</h2>
+                    <h1>Player-2</h1>
+                    <p id="player-2score" class="text-primary"></p>
+                </div>
+                <p class="player-warning player-2warnig">Sorry u picked 1</p>
+                <div class="current-score bg-primary">
+                    <p>CURRENT</p>
+                    <span id="player-2current" class="current">0</span>
+                </div>
+            </div>
+        
+        </div>
+
+        <!-- buttons -->
+        <button id="new-game" class="btn btn-danger">New Game</button>
+        <button id="new-game" class="btn btn-danger">Rotate</button>
+        <button id="new-game" class="btn btn-danger">Hold</button>
+
+        <!--  -->
+        <div class="dice btn btn-dack btn-lg">
+            0
+        </div>
+    
+    
+    </div>
     
 </body>
 </html>
